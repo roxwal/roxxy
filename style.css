@@ -1,0 +1,56 @@
+body {
+  background: linear-gradient(#574e4e69 0%, #393e46 40%, #a02d2d 100%);
+  min-height: 100vh;
+}
+/* profile */
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 90px;
+  padding-top: 300px;
+}
+.profileimage {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; /* Membuat gambar menjadi bulat sempurna */
+  object-fit: cover;
+}
+.profile h2 {
+  color: #ffff;
+  transform: translateY(5px);
+}
+.profile h4 {
+  color: #ffff;
+  transform: translateY(-6px);
+}
+.achievement{
+  padding-top: 300px;
+}
+.biodata{
+    background: linear-gradient(#fffeff 0%, #ffffffd5 40%, #fdfdfd00 100%);
+    padding-bottom: 100px;
+    padding-top: 300px;
+}
+.row{
+  padding: 0px 10px;
+}
+.text-center1{
+    transform: translateY(18px);
+}
+.text-center2{
+    transform: translateY(-5px);
+}
+.footer{
+  background-color: #ffff;
+  padding-bottom: 20px;
+}
+.contact a{
+  color: black;
+  font-size: 28px;
+}
+.watermark{
+  padding-top: 30px;
+  color: #f01717;
+}
